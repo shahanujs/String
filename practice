@@ -13,6 +13,8 @@ int main(void) {
    char userName[30];
 
    /* Your solution goes here  */
+   GetUserInfo(&userAge, &userName);
+
 
    printf("%s is %d years old.\n", userName, userAge);
 
